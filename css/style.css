@@ -1,0 +1,89 @@
+/* 
+
+Project Name: Skarli Pena 
+Client: Skarli Pena
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
+Developed @ One Month in NYC 
+
+*/
+
+body {
+	background: url('../images/happypastels.png');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container {
+	background: #D1B6E1;
+	width: 480px;
+	color: white;
+	padding: 50px;
+	opacity: 0.8;
+	height: 100%;
+	line-height: 28px;
+
+}
+h1 {
+	font-size: 80px;
+	font-family: 'Viaoda Libre', cursive;
+
+}
+
+h2{
+	background: #58C9B9;
+	color: black;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+a {
+	color: #519D9E;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+#profile {
+	border-radius: 50%;
+	width: 100%;s
+  	height: auto;
+  	border: 3px solid white;
+  	transition: all .5s;
+}
+
+#profile:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+
+#teaching {
+	width: 100%;s
+  	height: auto;
+}
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  margin-right: 20px;
+  font-size: .75em;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 20px;
+  font-size: 2rem;
+
+}
+
+footer ul li {
+  display: inline-block;
+}
